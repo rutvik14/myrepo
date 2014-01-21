@@ -1,0 +1,2091 @@
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (18291600) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (18291600) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (18291600) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(18291600) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (18431632) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (18431632) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (18431632) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (18526736) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (18526736) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (18526736) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (18291600) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (18431632) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (18526736) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32701328) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (32701328) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32701328) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(32701328) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32845456) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (32845456) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32845456) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32936464) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (32936464) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32936464) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32845456) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32936464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32701328) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29367120) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (29367120) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29367120) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(29367120) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29507152) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29507152) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29507152) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29598160) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29598160) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29598160) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29507152) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29598160) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29367120) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (24828752) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (24828752) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (24828752) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(24828752) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (24956432) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (24956432) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (24956432) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (24928400) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (24928400) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (24928400) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (24956432) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (24928400) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (24828752) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (44211024) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (44211024) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (44211024) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(44211024) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (44338704) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (44338704) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (44338704) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (44310672) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (44310672) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (44310672) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (44338704) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (44310672) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (44211024) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (33639248) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (33639248) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (33639248) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(33639248) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (33766928) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (33766928) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (33766928) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (33738896) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (33738896) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (33738896) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (33766928) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (33738896) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (33639248) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (30788432) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (30788432) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (30788432) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(30788432) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (30916112) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (30916112) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (30916112) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (30888080) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (30888080) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (30888080) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (30916112) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (30888080) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (30788432) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17275728) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (17275728) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17275728) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(17275728) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17403408) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (17403408) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17403408) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17375376) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (17375376) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17375376) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17403408) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17375376) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17275728) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16522064) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (16522064) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16522064) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(16522064) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16658000) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (16658000) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16658000) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16753104) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (16753104) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16753104) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16658000) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16753104) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16522064) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (44608464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (44608464) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (44608464) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(44608464) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (44990160) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (44990160) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (44990160) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45085264) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (45085264) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45085264) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (44990160) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45085264) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (44608464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (14842832) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (14842832) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (14842832) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(14842832) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15224528) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (15224528) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15224528) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15319632) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (15319632) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15319632) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15224528) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15319632) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (14842832) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (18852816) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (18852816) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (18852816) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(18852816) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19234512) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19234512) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19234512) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19329616) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19329616) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19329616) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19234512) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19329616) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (18852816) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32279632) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (32279632) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32279632) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(32279632) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32657232) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (32657232) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32657232) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32756432) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (32756432) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32756432) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32657232) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32756432) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32279632) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (30792720) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (30792720) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (30792720) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(30792720) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31178512) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (31178512) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31178512) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31273616) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (31273616) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31273616) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31178512) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31273616) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (30792720) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23055312) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (23055312) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23055312) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(23055312) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23441104) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (23441104) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23441104) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23536208) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (23536208) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23536208) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23441104) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23536208) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23055312) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (43596816) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (43596816) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (43596816) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(43596816) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (43978512) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (43978512) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (43978512) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (44073616) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (44073616) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (44073616) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (43978512) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (44073616) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (43596816) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (36068240) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (36068240) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (36068240) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(36068240) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (36208272) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (36208272) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (36208272) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (36303376) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (36303376) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (36303376) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.io.asyncorereactor:Closing connection (36208272) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (36303376) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (36068240) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15825808) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (15825808) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15825808) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(15825808) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15965840) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (15965840) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15965840) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16060944) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (16060944) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16060944) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15965840) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16060944) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15825808) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32279440) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (32279440) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32279440) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(32279440) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32419472) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (32419472) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32419472) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (32514576) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (32514576) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (32514576) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32419472) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32514576) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (32279440) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (14908304) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (14908304) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (14908304) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(14908304) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15048336) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (15048336) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15048336) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15143440) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (15143440) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15143440) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15048336) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15143440) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (14908304) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31472528) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (31472528) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31472528) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(31472528) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31616656) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (31616656) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31616656) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31707664) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (31707664) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31707664) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31616656) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31707664) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31472528) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (14486416) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (14486416) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (14486416) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(14486416) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (14630544) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (14630544) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (14630544) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (14721552) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (14721552) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (14721552) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (14630544) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (14721552) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (14486416) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (20642768) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (20642768) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (20642768) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(20642768) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (21028560) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (21028560) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (21028560) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (21119568) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (21119568) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (21119568) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (21028560) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (21119568) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (20642768) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23612304) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (23612304) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23612304) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(23612304) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23752336) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (23752336) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23752336) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23843344) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (23843344) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23843344) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23752336) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23843344) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23612304) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (30256016) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (30256016) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (30256016) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(30256016) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (30396048) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (30396048) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (30396048) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (30487056) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (30487056) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (30487056) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (30396048) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (30487056) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (30256016) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15272784) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (15272784) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15272784) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(15272784) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15412816) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (15412816) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15412816) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15503824) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (15503824) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15503824) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15412816) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15503824) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15272784) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (25406288) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (25406288) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (25406288) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(25406288) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (25546320) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (25546320) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (25546320) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (25637328) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (25637328) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (25637328) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (25546320) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (25637328) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (25406288) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17046352) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (17046352) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17046352) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(17046352) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17174032) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (17174032) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17174032) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17146128) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (17146128) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17146128) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17046352) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17174032) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17146128) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (18791248) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (18791248) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (18791248) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(18791248) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (18931344) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (18931344) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (18931344) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19022352) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19022352) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19022352) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (18791248) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (18931344) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19022352) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (26717008) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (26717008) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (26717008) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(26717008) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (26844688) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (26844688) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (26844688) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (26816784) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (26816784) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (26816784) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (26844688) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (26816784) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (26717008) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (24820560) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (24820560) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (24820560) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(24820560) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (24960656) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (24960656) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (24960656) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (25051664) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (25051664) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (25051664) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (24960656) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (25051664) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (24820560) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23771984) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (23771984) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23771984) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(23771984) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23907984) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (23907984) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23907984) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (23998992) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (23998992) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (23998992) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23907984) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23998992) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (23771984) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19430224) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (19430224) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19430224) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(19430224) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19566224) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19566224) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19566224) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19657232) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19657232) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19657232) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19566224) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19657232) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19430224) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17861456) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (17861456) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17861456) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(17861456) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (17997456) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (17997456) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (17997456) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (18088464) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (18088464) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (18088464) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17997456) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (18088464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (17861456) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42736464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (42736464) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42736464) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(42736464) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42876560) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (42876560) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42876560) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42967568) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (42967568) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42967568) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42876560) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42967568) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42736464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (26598224) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (26598224) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (26598224) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(26598224) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (26738320) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (26738320) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (26738320) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (26829328) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (26829328) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (26829328) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (26738320) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (26829328) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (26598224) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (21756752) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (21756752) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (21756752) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(21756752) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (21884432) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (21884432) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (21884432) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (21857296) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (21857296) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (21857296) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (21756752) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (21884432) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (21857296) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19585936) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (19585936) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19585936) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(19585936) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19726032) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19726032) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19726032) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19817040) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19817040) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19817040) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19726032) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19817040) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19585936) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45611920) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (45611920) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45611920) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(45611920) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45752016) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (45752016) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45752016) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45843024) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (45843024) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45843024) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45752016) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45843024) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45611920) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (35126160) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (35126160) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (35126160) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(35126160) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (35266256) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (35266256) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (35266256) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (35357264) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (35357264) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (35357264) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (35266256) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (35357264) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (35126160) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42732432) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (42732432) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42732432) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(42732432) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42860112) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (42860112) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42860112) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42832208) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (42832208) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42832208) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42860112) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42832208) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42732432) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (20597648) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (20597648) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (20597648) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(20597648) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (20725328) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (20725328) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (20725328) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (20697296) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (20697296) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (20697296) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec5201312142680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (20725328) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (20697296) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (20597648) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31435664) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (31435664) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31435664) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(31435664) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31563344) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (31563344) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31563344) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (31535696) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (31535696) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (31535696) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec5201312142680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31435664) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31563344) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (31535696) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (47893392) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (47893392) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (47893392) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(47893392) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (48033488) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (48033488) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (48033488) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (48124496) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (48124496) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (48124496) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (48033488) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (48124496) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (47893392) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29006736) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (29006736) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29006736) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(29006736) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29146832) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29146832) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29146832) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29237840) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29237840) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29237840) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29146832) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29237840) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29006736) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (26925968) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (26925968) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (26925968) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(26925968) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (27066064) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (27066064) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (27066064) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (27157072) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (27157072) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (27157072) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (27066064) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (27157072) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (26925968) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (15997904) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (15997904) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (15997904) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(15997904) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16138000) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (16138000) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16138000) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16233104) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (16233104) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16233104) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (15997904) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16138000) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16233104) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (28130256) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (28130256) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (28130256) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(28130256) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (28270352) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (28270352) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (28270352) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (28365456) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (28365456) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (28365456) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'DROPPED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (28130256) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (28270352) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (28365456) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19356688) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (19356688) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19356688) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(19356688) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19730256) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19730256) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19730256) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (19829456) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (19829456) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (19829456) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'DROPPED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19730256) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19829456) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (19356688) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (35331088) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (35331088) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (35331088) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(35331088) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (35471184) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (35471184) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (35471184) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (35566288) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (35566288) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (35566288) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'DROPPED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (35471184) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (35566288) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (35331088) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29613008) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (29613008) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29613008) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(29613008) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29753104) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29753104) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29753104) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29848208) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29848208) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29848208) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'DROPPED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29613008) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29753104) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29848208) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29256656) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (29256656) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29256656) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(29256656) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29400848) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29400848) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29400848) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (29491856) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (29491856) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (29491856) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'DROPPED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29256656) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29400848) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (29491856) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45140944) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (45140944) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45140944) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(45140944) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45276816) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (45276816) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45276816) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45244816) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (45244816) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45244816) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45140944) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45276816) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45244816) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42392528) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (42392528) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42392528) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(42392528) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42536720) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (42536720) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42536720) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (42627728) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (42627728) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (42627728) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'DROPPED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42392528) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42536720) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (42627728) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45824976) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (45824976) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45824976) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(45824976) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45960848) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (45960848) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45960848) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (45928848) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (45928848) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (45928848) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45824976) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45960848) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (45928848) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16448464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (16448464) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16448464) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(16448464) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16594832) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (16594832) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16594832) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (16552784) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (16552784) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (16552784) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16448464) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16594832) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (16552784) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Asyncore event loop ended
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (20626384) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (20626384) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (20626384) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(20626384) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (20766480) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (20766480) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (20766480) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (20857488) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (20857488) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (20857488) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'DROPPED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Closing connection (20766480) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (20857488) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (20626384) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.pool:Host localhost is now marked up
+DEBUG:cassandra.cluster:[control connection] Opening new connection to localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (27065232) to localhost
+DEBUG:cassandra.io.asyncorereactor:Starting asyncore event loop
+DEBUG:cassandra.connection:Received options response on new connection (27065232) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (27065232) from localhost
+DEBUG:cassandra.cluster:[control connection] Established new connection <AsyncoreConnection(27065232) localhost:9042>, registering watchers and refreshing schema and topology
+DEBUG:cassandra.cluster:[control connection] Refreshing node list and token map
+WARNING:cassandra.metadata:The murmur3 C extension is not available, token awareness cannot be supported for the Murmur3Partitioner
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:Control connection created
+DEBUG:cassandra.pool:Initializing new connection pool for host localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (27197008) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (27197008) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (27197008) from localhost
+DEBUG:cassandra.connection:Sending initial options message for new connection (27165008) to localhost
+DEBUG:cassandra.connection:Received options response on new connection (27165008) from localhost
+DEBUG:cassandra.connection:No available compression types supported on both ends. locally supported: []. remotely supported: [u'snappy', u'lz4']
+DEBUG:cassandra.connection:Got ReadyMessage on new connection (27165008) from localhost
+DEBUG:cassandra.pool:Finished initializing new connection pool for host localhost
+DEBUG:cassandra.cluster:Added pool for host localhost to session
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.io.asyncorereactor:Message pushed from server: <EventMessage(event_type=u'SCHEMA_CHANGE', event_args={'table': u'bmkfundmeas_dec520131n21n42n680am', 'change_type': u'CREATED', 'keyspace': u'lipperkeyspace'})>
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:cassandra.cluster:[control connection] Waiting for schema agreement
+DEBUG:cassandra.cluster:[control connection] Schemas match
+DEBUG:root:['RECORD COUNT=5259']
+DEBUG:cassandra.cluster:Shutting down Cluster Scheduler
+DEBUG:cassandra.io.asyncorereactor:Closing connection (27065232) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (27197008) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
+DEBUG:cassandra.io.asyncorereactor:Closing connection (27165008) to localhost
+DEBUG:cassandra.io.asyncorereactor:Closed socket to localhost
