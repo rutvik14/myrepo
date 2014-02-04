@@ -66,6 +66,7 @@ def create_primarykey(row_clean,header,composite_keylist):
    if header[i].lower()==c.lower():
     pk=pk+r.replace(" ","")
     pk=pk.replace(":","")
+    pk=pk.replace(";","")
     pk=pk.replace("/","")
   i=i+1 
      
