@@ -10,23 +10,10 @@ import csv
 import logging
 import glob
 from cassandra.cluster import Cluster
+from cassandra import ConsistencyLevel
+from cassandra.query import SimpleStatement
 from collections import deque
 
-## need to change
-"""
-def get_metadata(filename,filepath):
-  try:
-   with open (filepath,'rb') as csvfile:
-    metareader=csv.reader(csvfile,delimiter='\t')
-    for m in metareader:
-     if m[0]==filename:
-      print "filename: ", m[0]
-      return m[1].split(",")
-    return "NF" 
-  except IOError:
-   print "Could not open metadatafile"
-   sys.exit(-1)
-"""
 
 
 ## changed method for get_metadata()
@@ -71,14 +58,18 @@ def get_timestamp(timerow):
  timestamp=timestamp.replace(":","n")
  return timestamp 
 
-## deprecated
-def create_primarykey(row1):
- row1length==len(row1)
- primary_key=""
- for index,item in enumerate(row1):
-  primary_key=primary_key+item
-  
- return primary_key
+## creating composite primary key needs to be changed
+def create_primarykey(row_clean,header,composite_keylist):
+ pk=""
+ for i,r in enumerate(row_clean):
+  for c in composite_keylist:
+   if header[i].lower()==c.lower():
+    pk=pk+r.replace(" ","")
+    pk=pk.replace(":","")
+    pk=pk.replace("/","")
+  i=i+1 
+     
+ return pk
 
 
 def get_schemaheader(filemetadata):
@@ -113,9 +104,10 @@ def create_table(session,tablename_complete,header,composite_flag,composite_keyl
  schema5=" );"
  
  composite_key=""
+
 # chk if PK is composite or not and act accordingly
  if composite_flag==0:
-  print "1"
+
   primary_keyhead=composite_keylist[0]
   schema=schema1+primary_keyhead+schema3
   for i,h in enumerate(header):
@@ -127,7 +119,7 @@ def create_table(session,tablename_complete,header,composite_flag,composite_keyl
    else:
     schema=schema+schema2+h+schema4
  elif composite_flag==1:
-  print "a"
+
   primary_keyhead="composite_PK"
   schema=schema1+primary_keyhead+schema3
   for i,h in enumerate(header):
@@ -138,84 +130,90 @@ def create_table(session,tablename_complete,header,composite_flag,composite_keyl
     schema=schema+schema2+h+schema4 
  else:
    print "somethingwrong in composite flag"
- print schema
+
  session.execute(schema)  
 
 
+
+
+def clean_row(row):
+ row1=[]
+ for column in row:
+  if column=="":
+   row1.append("NF")
+  else:
+   row1.append(column.replace("'",""))
+ return row1 
+
 def cassandra_ingest(session,row,header,tablename_complete,composite_flag,composite_keylist ):
- row1=[] 
+
  schema1="INSERT INTO "+tablename_complete+" ("
  schema2=" , "
  schema3=" ) "
  schema4="'"
  schema5=");"
- schemah,schemar=""
- for i,h in enumerate(row):
-  if composite_flag==0:
-   pk_schemaname=composite_keylist[0]
-   schemah=schema1+pk_schemaname
-   schemar=
+ 
+ schemah=schema1
+ schemar=" ('"
+ schemarr=""
+ i=0
+
+## clean the row for adding NF and removing ' in data
+
+ row_clean=clean_row(row)
+ if composite_flag==0:
+  for i,r in enumerate(row_clean):
+   if len(header)==1:
+    schemah=schemah+header[i]+schema3
+    schemar=schemar+r+schema4+schema5
+    i=i+1
+   elif i==len(header)-1: 
+    schemah=schemah+schema2+header[i]+schema3
+    schemar=schemar+schema2+schema4+r+schema4+schema5
+    i=i+1
    
-   if i==len(header)-1:
-    schemah=schemah+schema2+header[i]+schema5
-    i=i+1
-   elif header[i].lower()==pk_schemaname.lower():
-    i=i+1
-    continue
-   else: 
+   elif i==0:
+    schemah=schemah+header[i]
+    schemar=schemar+r+schema4
+   else:
     schemah=schemah+schema2+header[i]
-   
-  elif composite_flag==1:
-   
-   
-    """
-  ### try catch
-   row1=[]
-
-   schema1="INSERT INTO "+tablename_complete+" ("
-   schema2=","
-   schema3=") "
-   
-
-   schema4="'"
-   schema5="', '"
-   schema6="');"
-   composite_header="composite_header_PK"
-   primary_key=""
+    schemar=schemar+schema2+schema4+r+schema4
+    i=i+1
   
-   schemah=schema1+composite_header+schema2
-   schemar=schema4 
-   for index,item in enumerate(row):
-    if index==len(header)-1:
-     schemah=schemah+header[index]+schema3
-    else:
-     schemah=schemah+header[index]+schema2
-       
-    if item=="":
-     row1.append("NF")
-     primary_key=primary_key+"NF"
-    else:
-     row1.append(item.replace("'",""))
-     primary_key=primary_key+item.replace("'","")
-     primary_key=primary_key.replace(" ","")
-     primary_key=primary_key.replace(":","")
-     primary_key=primary_key.replace("/","")
-    
-    if index==len(row)-1:
-     schemar=schemar+row1[index]+schema6
-    else:
-     schemar=schemar+row1[index]+schema5
-   
-   schemapk=" VALUES ('"+primary_key+"'," 
-   schema=schemah+schemapk+schemar
+  
+  schemacfO=schemah+" VALUES "+schemar 
+  session.execute(schemacfO)
  
- 
-#   print schema
- 
-   session.execute(schema) 
+## case where CF=1 ** this is the case where a composite pk  needs to be created 
+
+ elif composite_flag==1:
+  schemah=schemah+"composite_pk"+schema2
+  
+  for i,r in enumerate(row_clean):
+   if len(header)==1:
+    print "Something went wrong here: getting composite key for a single columnar file!! not possible"
+    sys.exit(-1) 
+   elif i==len(header)-1:
+    schemah=schemah+schema2+header[i]+schema3
+    schemar=schemar+schema2+schema4+r+schema4+schema5
+    i=i+1
+   elif i==0:
+    schemah=schemah+header[i]
+    schemar=schemar+create_primarykey(row_clean,header,composite_keylist)+schema4+schema2+schema4+r+schema4
+    i=i+1
+   else:
+    schemah=schemah+schema2+header[i]
+    schemar=schemar+schema2+schema4+r+schema4
+    i=i+1
+  schemacf1=schemah+" VALUES "+schemar
+  session.execute(schemacf1)
+  
+ else:
+  print "error with composite flag"
+  sys.exit(-1)   
 
 ###   session.execute("INSERT INTO "+tablename_complete+" ("+header[0]+","+header[1]+","+header[2]+","+header[3]+","+header[4]+") VALUES ('"+row[0]+"', '"+row[1]+"', '"+row[2]+"', '"+row[3]+"', '"+row[4]+"');")
-"""   
+   
 
 ## main 
 
@@ -286,8 +284,8 @@ def main():
     print "header from file itself"
     print headerfromfile
     
-    print composite_keylist
-    print composite_flag
+    print "composite keylist: ", composite_keylist
+    print "File has primary key or need to create one? ", composite_flag
 
     
 ## compare header from metadata file with data file to make sure they match else kill 
@@ -325,7 +323,7 @@ def main():
       rowcounter=rowcounter+1
 
       
-      cassandra_ingest(session,row,header,tablename_complete)
+      cassandra_ingest(session,row,header,tablename_complete, composite_flag, composite_keylist)
       i=i+1
       print i
      else:
@@ -340,11 +338,12 @@ def main():
   
   except Exception,e:
    print "Sorry there was an error in reading the file "+filename+", might want to check the path."
+   print e
    print "current value %s" % socket
    raise
    sys.exit(-1) 
   
-  cluster.shutdown()
+ cluster.shutdown()
   
 if __name__=='__main__':
  main()
